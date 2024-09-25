@@ -7,7 +7,7 @@ f = open('currency rates', 'r')
 for i in f:
     key, value = i.rstrip('\n').split(',')
     dic[key] = float(value)
-
+# asdas
 # 12
 def conversion(amount, cur, conv):
     if cur in dic and conv in dic:
