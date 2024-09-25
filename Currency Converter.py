@@ -8,7 +8,7 @@ for i in f:
     key, value = i.rstrip('\n').split(',')
     dic[key] = float(value)
 
-
+# 12
 def conversion(amount, cur, conv):
     if cur in dic and conv in dic:
         in_usd = amount * dic[cur]
